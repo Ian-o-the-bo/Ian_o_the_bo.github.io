@@ -232,7 +232,7 @@
                 } else {
                     console.log(`down y offset: ${asset.body.offset.y}`);
                     asset.body.offset.x -= 1 * _direction;
-                    asset.body.offset.y += 20;
+                    asset.body.offset.y += 2;
                 }
             };
             

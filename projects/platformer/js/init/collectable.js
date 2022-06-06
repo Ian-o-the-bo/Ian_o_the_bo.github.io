@@ -36,9 +36,31 @@
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
-        // example: 
-        createCollectable(type.steve, 200, 170, 6, 0.7);
-        
+        // example: 400, 250
+        createCollectable(type.steve, 200, 450, 6, 1);
+        createCollectable(type.db, 400, 300, -0.15, 5);
+        createCollectable(type.db, 420, 300, -0.15, 5);
+        createCollectable(type.db, 10, 300, 2, 5);
+        createCollectable(type.db, 10, 305, 2, 5);
+        createCollectable(type.db, 10, 310, 2, 5);
+        createCollectable(type.db, 10, 315, 2, 5);
+        createCollectable(type.db, 10, 320, 2, 5);
+        createCollectable(type.db, 10, 325, 2, 5);
+        createCollectable(type.db, 10, 330, 2, 5);
+        createCollectable(type.db, 10, 300, 2, 5);
+        createCollectable(type.db, 10, 305, 2, 5);
+        createCollectable(type.db, 10, 310, 2, 5);
+        createCollectable(type.db, 10, 315, 2, 5);
+        createCollectable(type.db, 10, 320, 2, 5);
+        createCollectable(type.db, 10, 325, 2, 5);
+        createCollectable(type.db, 10, 330, 2, 5);
+        createCollectable(type.db, 10, 300, 2, 5);
+        createCollectable(type.db, 10, 305, 2, 5);
+        createCollectable(type.db, 10, 310, 2, 5);
+        createCollectable(type.db, 10, 315, 2, 5);
+        createCollectable(type.db, 10, 320, 2, 5);
+        createCollectable(type.db, 10, 325, 2, 5);
+        createCollectable(type.db, 10, 330, 2, 5);
         
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
