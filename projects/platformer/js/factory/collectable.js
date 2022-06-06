@@ -24,7 +24,10 @@
                 case 'kennedi':
                     collectable.scale.x = collectable.scale.y = 0.9;
                     break;
-                
+                case 'dogecoin':
+                        collectable.scale.x = collectable.scale.y = 0.5;
+                        break;
+                    
                 default:
                     // code
             }

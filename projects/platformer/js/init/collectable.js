@@ -9,7 +9,17 @@
         max: {assetKey: 'max', points: 20},
         steve: {assetKey: 'steve', points: 30},
         grace: {assetKey: 'grace', points: 40},
+grace: {assetKey: 'grace', points: 40},
         kennedi: {assetKey: 'kennedi', points: 50}
+       , dogecoin: {assetKey: 'dogecoin', points: 50000000}
+    };
+    
+    /**
+     * init: Initialize all collectables.
+     * 
+     * GOAL: Add as many collectables as necessary to make your level challenging.
+     *
+        dogecoin: {assetKey: 'kennedi', points: 50}
     };
     
     /**
@@ -38,7 +48,7 @@
         
         // example: 400, 250
         createCollectable(type.steve, 200, 450, 6, 1);
-        createCollectable(type.db, 400, 300, -0.15, 5);
+        createCollectable(type.dogecoin, 500, 200, -0.15, 5);
         createCollectable(type.db, 420, 300, -0.15, 5);
         createCollectable(type.db, 10, 300, 2, 5);
         createCollectable(type.db, 10, 305, 2, 5);
@@ -54,7 +64,6 @@
         createCollectable(type.db, 10, 320, 2, 5);
         createCollectable(type.db, 10, 325, 2, 5);
         createCollectable(type.db, 10, 330, 2, 5);
-        createCollectable(type.db, 10, 300, 2, 5);
         createCollectable(type.db, 10, 305, 2, 5);
         createCollectable(type.db, 10, 310, 2, 5);
         createCollectable(type.db, 10, 315, 2, 5);
