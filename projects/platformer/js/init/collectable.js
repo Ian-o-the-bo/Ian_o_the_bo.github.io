@@ -48,7 +48,7 @@ grace: {assetKey: 'grace', points: 40},
         
         // example: 400, 250
         createCollectable(type.steve, 200, 450, 6, 1);
-        createCollectable(type.dogecoin, 800, 200, -0.15, 5);
+        createCollectable(type.dogecoin, 800, 200, -0.15, 1);
         createCollectable(type.db, 420, 300, -0.15, 5);
         createCollectable(type.db, 10, 300, 2, 5);
         createCollectable(type.db, 10, 305, 2, 5);
