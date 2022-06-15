@@ -65,23 +65,28 @@
             var speedX = 1;
             var points = 0;
 			var spedincrese = 3;
-			
+			var num=1;
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
 			it should move the Box to a new location. If the box drifts off the screen
 			turn it around! 
 			*/
-			function update() {
-				if(positionX<=boardWidth) {
-					positionX+=speedX
+			function moved(reps) {
+				for(var i=0;i<reps;i++) {
+				if(positionX<boardWidth) {
+					positionX+=num;
 				} else {
-					positionX-=speedX
-					speedX-=speedX*2
+					positionX-=1
+					num= -num;
 				}
-				if (positionX<=0) {
-					speedX= -speedX
+				if (positionX<0) {
+					num= -num;
 				}
-				moveBoxTo(positionX)
+				moveBoxTo(positionX);
+			};
+			};
+			async function update() {
+				await moved(Math.round(speedX));
 
 			};
 			document.documentElement.addEventListener("keypress",function(e){
