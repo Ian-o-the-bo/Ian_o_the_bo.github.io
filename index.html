@@ -5,7 +5,7 @@
     <title>big brain bois</title>
     <style>
         body {
-            background: rgb(125, 198, 205);
+            background: rgb(0, 244, 171);
             color: rgb(45, 45, 45);
             padding: 10px;
             font-family: arial;
@@ -17,8 +17,8 @@
      
         /* navigation menu */
         nav {
-            background: rgb(239, 80, 41);
-           margin: 0 auto;
+            background: rgb(23, 250, 223);
+           margin: 20px;
             display: flex;
             padding: 10px;
         }
@@ -68,22 +68,25 @@
 </head>
 
 <body>
-    <div>
+    <div id="all-contents">
         <nav>
             <h1>Ze Smurt Bois</h1>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Portfolio</a></li>
+            <ul id="nav-ul">
+                <li class="nav-li"><a href="">Home</a></li>
+                <li class="nav-li"><a href="">Portfolio</a></li>
             </ul>
         </nav>
         <main>
-            <div>
-                <img width="50%" src="https://lh3.googleusercontent.com/fife/AAWUweUEth6vi4F-GWdjpJpGzhX19vwUkvrRmE3mf0FugW4wuylN9pos6bfNGHxr9a5GJTQkO3fN5D7ZKcIBRvvnPFvB3yqRownwIDoxWU_Gba1p-F1pz0JC94nvanhR0ycVozZc2-DJ80h6Oll43WdGTMXGgCo8r3iPMhE_2VkYAdrDr9djVxKh00GRm9S7qRjo8hKoING6-svWcfO6L94Q4K6wtrtONU1loaiDc6K-JqeAbSuwmW09n9deW1Z4mqrMn-Bus8gsnOXTtboE3vAUTWcHptBMYuSGvCHIkibYIEnME3QVLPNnAPFSCt-YSlFBOHstRWeFeTY2mFB1AdlCgkmaJ9u16J3MNITBPe4fvin3xy-BsI8R_8MiUo5wGA_7ptRRVwJ-9vjN2eXLnRP_05c_4DCn-hB-dm2jKYDBbBPAl_L6Jgd7-BUuF-TqCiWsWvYtzoPyN8ssWmbsO1d4qdD6ucza563tT_eAsvjR-09r4yVdU_PCKHTwUcm8yq7zj_IIO3mfsRHDplfF3zZq02btsdBqQCAyGdHh6pBEjQgBJW73Mr8m8YLV859mzH5Ah3Kkj319GXP_P4G5yv-tzhr4tZrwEWd30hZPzrZvOrK-6bg_78dozKoXuIbc_JQ0simHmNuosuh532jNJlULXDUUC6lElZKBkz0Aiz4wmj9IX1FeolDhoe7pQchbaDjY_wMDXAf-2y1yuigxLVHrhGW7VtJNCUv0_UzNOlmOwP6qMObui0zkY7L0_GJmOZx-2Ad0uOwcRFmcHXVT23WgG577MAx5Uu0COuefSRwrbJCOnWO_AvVLychVQsvKoJ0yJbUbeYavtl4TxJWU7zp7IQAdAxExH0tJS4Zg1vHVksiejT6g912RU_3mjqAhMZI4p1TWmSETUPRE7kqRPcn3zv3RcSRWBWLDVDlR9qeoxfM1yO-m4gLJ4AuZuLMBcO9mJJACIfhQxkHdCTwm5Xuje8QdqYyU_bGHOdTgwLyCUGloSkv-sdSXoihWvslA3sMvxKCJwMhnnl9jDhdwVdb96YOG8vzbekxW3xGedJZTdhlaQcTGBzK9HqUQ-tDr1S8egyJa_wgk3J6tPYrWbffWad3sIKIWu_fXtA7DA3OKFx9FVDfJAfmNzSIorb-l-BCf3U3r-3dIzLwytgHzLJwDKiP2_-gpymAIxVygKijuVlL6EzYLEEwaSa2QWk6-Em3tNAl9nmuYmnIRS9j69R3SZgDu5SwUagN1X2evf-S0w5TX4qkQtQeUm_gVQhlEIVsxHHja7MxWHLe_Z1XAyn7JjEhz_jYeHQoblT7aumOdACj-SYS_tEYAZEimGryDEeu3itJ7aBJjorEBaVqjlEME=w2256-h1204" alt="">
+            <!-- sidebar section -->
+            <div class="sidebar">
+                <img class="sidebar-img" src="https://lh3.googleusercontent.com/fife/AAWUweUEth6vi4F-GWdjpJpGzhX19vwUkvrRmE3mf0FugW4wuylN9pos6bfNGHxr9a5GJTQkO3fN5D7ZKcIBRvvnPFvB3yqRownwIDoxWU_Gba1p-F1pz0JC94nvanhR0ycVozZc2-DJ80h6Oll43WdGTMXGgCo8r3iPMhE_2VkYAdrDr9djVxKh00GRm9S7qRjo8hKoING6-svWcfO6L94Q4K6wtrtONU1loaiDc6K-JqeAbSuwmW09n9deW1Z4mqrMn-Bus8gsnOXTtboE3vAUTWcHptBMYuSGvCHIkibYIEnME3QVLPNnAPFSCt-YSlFBOHstRWeFeTY2mFB1AdlCgkmaJ9u16J3MNITBPe4fvin3xy-BsI8R_8MiUo5wGA_7ptRRVwJ-9vjN2eXLnRP_05c_4DCn-hB-dm2jKYDBbBPAl_L6Jgd7-BUuF-TqCiWsWvYtzoPyN8ssWmbsO1d4qdD6ucza563tT_eAsvjR-09r4yVdU_PCKHTwUcm8yq7zj_IIO3mfsRHDplfF3zZq02btsdBqQCAyGdHh6pBEjQgBJW73Mr8m8YLV859mzH5Ah3Kkj319GXP_P4G5yv-tzhr4tZrwEWd30hZPzrZvOrK-6bg_78dozKoXuIbc_JQ0simHmNuosuh532jNJlULXDUUC6lElZKBkz0Aiz4wmj9IX1FeolDhoe7pQchbaDjY_wMDXAf-2y1yuigxLVHrhGW7VtJNCUv0_UzNOlmOwP6qMObui0zkY7L0_GJmOZx-2Ad0uOwcRFmcHXVT23WgG577MAx5Uu0COuefSRwrbJCOnWO_AvVLychVQsvKoJ0yJbUbeYavtl4TxJWU7zp7IQAdAxExH0tJS4Zg1vHVksiejT6g912RU_3mjqAhMZI4p1TWmSETUPRE7kqRPcn3zv3RcSRWBWLDVDlR9qeoxfM1yO-m4gLJ4AuZuLMBcO9mJJACIfhQxkHdCTwm5Xuje8QdqYyU_bGHOdTgwLyCUGloSkv-sdSXoihWvslA3sMvxKCJwMhnnl9jDhdwVdb96YOG8vzbekxW3xGedJZTdhlaQcTGBzK9HqUQ-tDr1S8egyJa_wgk3J6tPYrWbffWad3sIKIWu_fXtA7DA3OKFx9FVDfJAfmNzSIorb-l-BCf3U3r-3dIzLwytgHzLJwDKiP2_-gpymAIxVygKijuVlL6EzYLEEwaSa2QWk6-Em3tNAl9nmuYmnIRS9j69R3SZgDu5SwUagN1X2evf-S0w5TX4qkQtQeUm_gVQhlEIVsxHHja7MxWHLe_Z1XAyn7JjEhz_jYeHQoblT7aumOdACj-SYS_tEYAZEimGryDEeu3itJ7aBJjorEBaVqjlEME=w2256-h1204" alt="">
             </div>
-            <div>
+            <!-- content section -->
+            <div class="content">
                 <h2>Ian Ball</h2>
                 <p>Student at University View Academy</p>
-                    <div>
+                <!-- interests section -->
+                    <div id="interests">
                         <h3>Interests</h3>
                         <ul>
                             <li>Programming</li>
