@@ -1,0 +1,23 @@
+{
+  "name": "infinite-autocraft",
+  "version": "0.1.0",
+  "description": "Auto crafter script for infinite-craft",
+  "type": "module",
+  "scripts": {},
+  "author": "szdytom <szdytom@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@cloudpss/zstd": "^0.2.14",
+    "better-sqlite3": "^9.4.1",
+    "binary-struct": "file:./bstruct",
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.41.2",
+    "progress": "^2.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  }
+}

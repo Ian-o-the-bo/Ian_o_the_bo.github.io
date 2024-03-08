@@ -1,0 +1,51 @@
+* {
+	line-height: 1.3em;
+}
+
+main {
+	width: 800px;
+	margin: 20px auto;
+}
+
+footer {
+	width: 800px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	color: #a8a8a8;
+	font-size: xx-small;
+}
+
+footer a {
+	color: #a8a8a8;
+}
+
+footer .important-footer {
+	color: black;
+}
+
+.full-width {
+	width: 100%;
+}
+
+html {
+	background-color: #ffffff;
+}
+
+a, footer .important-footer a {
+	color: #0000ee;
+}
+
+.seo-info {
+	overflow: hidden;
+	width: 1px;
+	height: 1px;
+}
+
+.a-button {
+	margin-left: 5px;
+	margin-right: 5px;
+	text-decoration: underline;
+	cursor: pointer;
+}

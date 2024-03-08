@@ -1,0 +1,16 @@
+.search-item-title {
+	margin-bottom: 0;
+}
+
+.search-item-subtitle {
+	margin-top: 10px;
+}
+
+.search-item-info {
+	font-style: italic;
+}
+
+.total-number-info {
+	font-size: small;
+	/* color: #666; */
+}

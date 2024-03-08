@@ -1,0 +1,11 @@
+node_modules
+package-lock.json
+*.sqlite*
+*.db
+backups
+dist
+*.parcel-cache
+pages/data.json
+*.dat
+*.zst
+relevant_recipes.json
